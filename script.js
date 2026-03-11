@@ -77,7 +77,7 @@ function animateInsert(moves) {
   showDataInsert(move);
   setTimeout(function () {
     animateInsert(moves);
-  }, 200);
+  }, 100);
 }
 
 function bubbleSort(arrayBubble) {
